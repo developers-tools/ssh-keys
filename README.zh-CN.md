@@ -21,13 +21,6 @@
 npm install -g ssh-key
 ```
 
-或者本地开发安装：
-
-```bash
-npm install
-npm link
-```
-
 ## 使用方法
 
 ### 交互式界面（推荐）

@@ -21,13 +21,6 @@ A simple and easy-to-use SSH key management CLI tool that helps you easily manag
 npm install -g ssh-key
 ```
 
-Or for local development:
-
-```bash
-npm install
-npm link
-```
-
 ## Usage
 
 ### Interactive GUI (Recommended)

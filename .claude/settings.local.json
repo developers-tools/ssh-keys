@@ -6,7 +6,10 @@
       "Bash(copy:*)",
       "Bash(ssh-key rand:*)",
       "Bash(git radd:*)",
-      "Bash(git config:*)"
+      "Bash(git config:*)",
+      "Bash(git rcommit:*)",
+      "Bash(cat:*)",
+      "Bash(ssh-key list:*)"
     ],
     "deny": [],
     "ask": []
