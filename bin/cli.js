@@ -7,7 +7,7 @@ const { setLanguage, getCurrentLanguage } = require('../lib/i18n');
 
 // 支持全局语言选项
 program
-  .name('ssh-key')
+  .name('ssh-keys')
   .description('SSH Key Manager / SSH密钥管理工具')
   .version('1.0.0')
   .option('-l, --lang <language>', 'Set language (en-US, zh-CN)', (lang) => {

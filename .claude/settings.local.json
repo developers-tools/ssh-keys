@@ -4,12 +4,21 @@
       "Bash(where:*)",
       "Bash(node:*)",
       "Bash(copy:*)",
-      "Bash(ssh-key rand:*)",
+      "Bash(ssh-keys rand:*)",
       "Bash(git radd:*)",
       "Bash(git config:*)",
       "Bash(git rcommit:*)",
       "Bash(cat:*)",
-      "Bash(ssh-key list:*)"
+      "Bash(ssh-keys list:*)",
+      "Bash(npm view ssh-keys)",
+      "Bash(npm view ssh-keys-manager)",
+      "Bash(for name in ssh-keys-switcher ssh-keys-cli multi-ssh-keys sshkey-manager ssh-keys-switch)",
+      "Bash(do echo \"=== $name ===\")",
+      "Bash(npm view $name)",
+      "Bash(done)",
+      "Bash(npm view ssh-keys-switcher)",
+      "Bash(npm view ssh-keys-cli)",
+      "Bash(npm view ssh-keys)"
     ],
     "deny": [],
     "ask": []

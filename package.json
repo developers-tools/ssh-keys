@@ -1,10 +1,10 @@
 {
-  "name": "ssh-key",
+  "name": "ssh-keys",
   "version": "1.0.0",
   "description": "A CLI tool to manage and switch SSH keys easily",
   "main": "index.js",
   "bin": {
-    "ssh-key": "./bin/cli.js"
+    "ssh-keys": "./bin/cli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,11 +12,18 @@
   "keywords": [
     "ssh",
     "key",
+    "keys",
     "cli",
-    "management"
+    "management",
+    "switcher",
+    "manager"
   ],
   "author": "",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/ssh-keys.git"
+  },
   "dependencies": {
     "blessed": "^0.1.81",
     "commander": "^11.1.0"

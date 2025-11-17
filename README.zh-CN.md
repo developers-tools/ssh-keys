@@ -18,7 +18,7 @@
 ## 安装
 
 ```bash
-npm install -g ssh-key
+npm install -g ssh-keys
 ```
 
 ## 使用方法

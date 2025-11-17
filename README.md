@@ -6,7 +6,7 @@ A simple and easy-to-use SSH key management CLI tool that helps you easily manag
 
 ## Features
 
-- 🖥️ Interactive GUI - Run `ssh-key gui` to display a visual selection interface
+- 🖥️ Interactive GUI - Run `ssh-keys gui` to display a visual selection interface
 - 🌍 Multi-language Support - Automatically detects system language, supports Chinese and English
 - 📋 List all managed SSH key pairs
 - 🔑 Quickly generate new SSH key pairs
@@ -18,7 +18,7 @@ A simple and easy-to-use SSH key management CLI tool that helps you easily manag
 ## Installation
 
 ```bash
-npm install -g ssh-key
+npm install -g ssh-keys
 ```
 
 ## Usage
@@ -28,7 +28,7 @@ npm install -g ssh-key
 Run the GUI command to display an interactive interface:
 
 ```bash
-ssh-key gui
+ssh-keys gui
 ```
 
 This will display an interactive interface listing all key pairs:
@@ -40,9 +40,9 @@ This will display an interactive interface listing all key pairs:
 ### List All Key Pairs
 
 ```bash
-ssh-key list
+ssh-keys list
 # Or use the alias
-ssh-key ls
+ssh-keys ls
 ```
 
 Example output:
@@ -59,43 +59,43 @@ Total 3 key pair(s)
 ### Generate New Key Pair
 
 ```bash
-ssh-key gen <name>
+ssh-keys gen <name>
 ```
 
 Examples:
 ```bash
 # Generate a key pair named work
-ssh-key gen work
+ssh-keys gen work
 
 # Generate a key pair with a specific email
-ssh-key gen personal --email your@email.com
+ssh-keys gen personal --email your@email.com
 
 # Generate a key pair without auto-switching
-ssh-key gen github --no-switch
+ssh-keys gen github --no-switch
 ```
 
 ### Switch Key Pair
 
 ```bash
-ssh-key use <name>
+ssh-keys use <name>
 ```
 
 Example:
 ```bash
 # Switch to the personal key pair
-ssh-key use personal
+ssh-keys use personal
 ```
 
 ### Rename Key Pair
 
 ```bash
-ssh-key rename <old-name> <new-name>
+ssh-keys rename <old-name> <new-name>
 ```
 
 Example:
 ```bash
 # Rename work to company
-ssh-key rename work company
+ssh-keys rename work company
 ```
 
 If you rename the currently active key pair, the tool will automatically update the keys in the `~/.ssh/` directory.
@@ -105,7 +105,7 @@ If you rename the currently active key pair, the tool will automatically update 
 Display the current public key for easy copying:
 
 ```bash
-ssh-key show
+ssh-keys show
 ```
 
 This will display your current SSH public key, which you can copy and add to GitHub, GitLab, or other platforms.
@@ -116,13 +116,13 @@ Enable random identity mode to hide your real user information in git commits:
 
 ```bash
 # Check current status
-ssh-key rand
+ssh-keys rand
 
 # Enable random identity mode
-ssh-key rand on
+ssh-keys rand on
 
 # Disable random identity mode
-ssh-key rand off
+ssh-keys rand off
 ```
 
 When enabled, you can use these git aliases:
@@ -139,16 +139,16 @@ The tool automatically detects your system language and supports both Chinese an
 
 ```bash
 # Show current language
-ssh-key lang
+ssh-keys lang
 
 # Switch to English
-ssh-key lang en-US
+ssh-keys lang en-US
 
 # Switch to Chinese
-ssh-key lang zh-CN
+ssh-keys lang zh-CN
 
 # Or use the global option
-ssh-key --lang zh-CN list
+ssh-keys --lang zh-CN list
 ```
 
 Supported languages:
