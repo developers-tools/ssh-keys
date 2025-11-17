@@ -22,7 +22,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/ssh-keys.git"
+    "url": "https://github.com/developers-tools/ssh-keys"
   },
   "dependencies": {
     "blessed": "^0.1.81",
