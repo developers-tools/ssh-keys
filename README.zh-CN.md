@@ -152,7 +152,7 @@ ssh-key --lang zh-CN list
 ```
 
 支持的语言：
-- `en-US` - English (英文)
+- `en-US` - English (英文) 
 - `zh-CN` - 简体中文
 
 ## 工作原理
