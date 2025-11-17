@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(where:*)",
+      "Bash(node:*)",
+      "Bash(copy:*)",
+      "Bash(ssh-key rand:*)",
+      "Bash(git radd:*)",
+      "Bash(git config:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

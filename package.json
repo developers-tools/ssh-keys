@@ -1,0 +1,24 @@
+{
+  "name": "ssh-key",
+  "version": "1.0.0",
+  "description": "A CLI tool to manage and switch SSH keys easily",
+  "main": "index.js",
+  "bin": {
+    "ssh-key": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ssh",
+    "key",
+    "cli",
+    "management"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "commander": "^11.1.0"
+  }
+}
